@@ -6,7 +6,7 @@
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [clj-http "3.12.4"]
                  [org.clojure/data.json "2.5.1"]
-                 [exoscale-auth "0.1.0-SNAPSHOT"]]
+                 [com.github.composed-ch/exoscale-auth "0.1.0-SNAPSHOT"]]
   :main ^:skip-aot exoscale-auth-demo.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
